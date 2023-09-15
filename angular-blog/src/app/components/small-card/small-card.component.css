@@ -1,5 +1,5 @@
 .small-card-container {
-  width: 700px;
+  width: 500px;
   margin-bottom: 15px;
 }
 
@@ -18,7 +18,7 @@
   display: flex;
   justify-content: center;
   align-self: center;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 .small-card-container-separator {
