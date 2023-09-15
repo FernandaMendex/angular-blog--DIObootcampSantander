@@ -11,6 +11,7 @@ export class ContentComponent implements OnInit {
   contentCover:string = ""
   contentTitle:string = ""
   contentDescription:string = ""
+  contentText:string= ""
   private id:string | null = "0"
 
   constructor(
@@ -32,6 +33,7 @@ export class ContentComponent implements OnInit {
       this.contentCover = result.image
       this.contentTitle = result.title
       this.contentDescription = result.description
+      this.contentText = result.text
 
   }
 }
